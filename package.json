@@ -1,0 +1,14 @@
+{
+  "name": "@dwolla-internal/eslint-rules",
+  "version": "0.1.0",
+  "description": "shared eslint rules for dwolla projects",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.dwolla.net:7999/fe/eslint-rules.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "<dev@dwolla.com>",
+  "license": "UNLICENSED"
+}
