@@ -1,14 +1,24 @@
 {
-  "name": "@dwolla-internal/eslint-rules",
+  "name": "@dwolla-internal/eslint-config-dwolla",
   "version": "0.1.0",
   "description": "shared eslint rules for dwolla projects",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.dwolla.net:7999/fe/eslint-rules.git"
+    "url": "ssh://git@stash.dwolla.net:7999/fe/eslint-config-dwolla.git"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "react",
+    "jsx",
+    "es6",
+    "mocha"
   ],
   "author": "<dev@dwolla.com>",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-plugin-react": "^5.0.1",
+    "eslint-config-airbnb": "^8.0.0"
+  }
 }
