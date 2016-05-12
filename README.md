@@ -33,6 +33,7 @@ extends: '@dwolla-internal/dwolla/rules/tests/base'
 
 ```
 extends: '@dwolla-internal/dwolla/rules/tests/mocha'
+```
 
 #### React
 

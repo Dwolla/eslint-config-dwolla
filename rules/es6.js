@@ -24,8 +24,6 @@ module.exports = {
     'no-console': 'error',
     'comma-dangle': ['error', 'never'],
     'max-len': ['error', 120],
-    'arrow-body-style': 'warn',
-    'import/no-unresolved': 'warn',
     'one-var': ['error', {uninitialized: 'always', initialized: 'never'}],
     'one-var-declaration-per-line': ['error', 'initializations'],
     'filenames/filenames': ['error','^[a-z0-9\\-\\.]+$'],
