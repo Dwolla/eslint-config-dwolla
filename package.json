@@ -1,6 +1,6 @@
 {
   "name": "@dwolla-internal/eslint-config-dwolla",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "shared eslint rules for dwolla projects",
   "main": "index.js",
   "repository": {
