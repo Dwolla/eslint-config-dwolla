@@ -3,6 +3,7 @@ module.exports = {
     'max-params': 'off',
     'id-length': 'off',
     'max-statements': ['error', 15, { ignoreTopLevelFunctions: true }],
-    'no-undefined': 'off'
+    'no-undefined': 'off',
+    'newline-per-chained-call': ['error', { 'ignoreChainWithDepth': 4 }]
   }
 };
