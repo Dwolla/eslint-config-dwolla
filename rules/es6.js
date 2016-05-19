@@ -26,7 +26,7 @@ module.exports = {
     'max-len': ['error', 120],
     'one-var': ['error', {uninitialized: 'always', initialized: 'never'}],
     'one-var-declaration-per-line': ['error', 'initializations'],
-    'filenames/filenames': ['error','^[a-z0-9\\-\\.]+$'],
+    'filenames/match-regex': ['error','^[a-z0-9\\-\\.]+$'],
     'new-cap': ['error', {capIsNewExceptions: ['Map']}],
     yoda: ['error', 'always']
   }
