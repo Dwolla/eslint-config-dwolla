@@ -28,6 +28,7 @@ module.exports = {
     'one-var-declaration-per-line': ['error', 'initializations'],
     'filenames/match-regex': ['error','^[a-z0-9\\-\\.]+$'],
     'new-cap': ['error', {capIsNewExceptions: ['Map']}],
-    yoda: ['error', 'always']
+    yoda: ['error', 'always'],
+    'handle-callback-err': 'error'
   }
 };
