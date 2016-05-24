@@ -1,4 +1,8 @@
 module.exports = {
+  extends: [
+    '../es6'
+  ],
+
   rules: {
     'max-params': 'off',
     'id-length': 'off',
