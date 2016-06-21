@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '../es6'
+    '../es6.js'
   ],
 
   rules: {
