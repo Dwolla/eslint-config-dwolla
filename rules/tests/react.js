@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '../react'
+    '../react.js'
   ],
 
   rules: {

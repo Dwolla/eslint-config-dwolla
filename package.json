@@ -20,7 +20,7 @@
     "test": "eslint rules"
   },
   "peerDependencies": {
-    "eslint": "^2.9.0"
+    "eslint": "^2.13.1"
   },
   "devDependencies": {
     "eslint": "2.12.0"
