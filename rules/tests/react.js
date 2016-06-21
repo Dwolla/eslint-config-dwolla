@@ -4,7 +4,6 @@ module.exports = {
   ],
 
   rules: {
-    'react/jsx-boolean-value': ['error', 'always'],
-    'react/jsx-key': 'off'
+    'react/jsx-boolean-value': ['error', 'always']
   }
 };
