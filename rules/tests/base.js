@@ -8,6 +8,6 @@ module.exports = {
     'id-length': 'off',
     'max-statements': ['error', 15, { ignoreTopLevelFunctions: true }],
     'no-undefined': 'off',
-    'newline-per-chained-call': ['error', { 'ignoreChainWithDepth': 4 }]
+    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 4 }]
   }
 };

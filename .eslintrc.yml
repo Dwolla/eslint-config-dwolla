@@ -1,0 +1,4 @@
+extends: './rules/es6.js'
+
+rules:
+  no-magic-numbers: off
