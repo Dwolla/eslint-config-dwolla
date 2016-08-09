@@ -1,11 +1,11 @@
 {
-  "name": "@dwolla-internal/eslint-config-dwolla",
+  "name": "@dwolla/eslint-config-dwolla",
   "version": "0.5.0",
   "description": "shared eslint rules for dwolla projects",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.dwolla.net:7999/fe/eslint-config-dwolla.git"
+    "url": "https://github.com/Dwolla/eslint-config-dwolla"
   },
   "keywords": [
     "eslint",
@@ -14,8 +14,7 @@
     "es6",
     "mocha"
   ],
-  "author": "<dev@dwolla.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "test": "eslint rules"
   },
