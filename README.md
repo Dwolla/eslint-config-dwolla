@@ -9,7 +9,7 @@ your local config, but consider contributing them back to this config if we shou
 In your base `.eslintrc`, extend the `es6.js` ruleset:
 
 ```
-extends: '@dwolla-internal/dwolla/rules/es6'
+extends: '@dwolla/dwolla/rules/es6'
 ```
 
 ### Extension
@@ -19,7 +19,7 @@ files where you use a specific convention beyond the base.
 ### React
 
 ```
-extends: '@dwolla-internal/dwolla/rules/react'
+extends: '@dwolla/dwolla/rules/react'
 ```
 
 ### Tests
@@ -27,12 +27,13 @@ extends: '@dwolla-internal/dwolla/rules/react'
 #### Base
 
 ```
-extends: '@dwolla-internal/dwolla/rules/tests/base'
+extends: '@dwolla/dwolla/rules/tests/base'
+```
 
 #### Mocha
 
 ```
-extends: '@dwolla-internal/dwolla/rules/tests/mocha'
+extends: '@dwolla/dwolla/rules/tests/mocha'
 ```
 
 #### React
@@ -40,5 +41,5 @@ extends: '@dwolla-internal/dwolla/rules/tests/mocha'
 Some overrides to be a little less strict when testing React components
 
 ```
-extends: '@dwolla-internal/dwolla/rules/tests/mocha'
+extends: '@dwolla/dwolla/rules/tests/mocha'
 ```
