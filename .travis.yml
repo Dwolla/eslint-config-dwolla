@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '6.0'
+- 6.2
+deploy:
+  provider: npm
+  email: api@dwolla.com
+  api_key:
+    secure: iqpGuIdynfL0FEsAsrREauOBUTN0wIYXnaUJeb/pVRouL5Hpv2JiR9KxgKAc1Rjwl7TPV2jrDJM1vuOZeafqAw+XL0WqLzkyZcqlH+uTp6JPhPkLIUzm6h+O4sNN+EUNuevHaTmWtEm59XK4xWPiR+rlIDJvBAXxCajFJxJLQqvfC87Bba3ufhK9gZKKyxUrR/T8cAqnzIaBcMnzOX3UUgdbD5FA3BfOHKygtMlFFJzxcr4FACgZflcg4Odl9J1Fk/Ra7ge+4Aa91/40nopSSnK0A+3/STbKBm4DzWsisA6edXnjCYfzHkW/2NOaCiVK/S9niLjA/WUIkNklN2t7s6pyISNvs/UK7xJeeSMb1WrdWIC6W+pk5fPdX93hhEDeffRGBVAze/pGv6uzDKpYWKvVMqgTtl/lYnCk2kef7CyWm/q6JAl3E5wt5ih/vzwu1t+f6Cq4w2EjkcYa6I3EkajFPMDyLzGg8npw1so7PD7pzy/k9bfsxcMvV/5RIPIFoUUN6IeGkBwuY6H6LaWqLmP4P7j0OthOlC10WySrUKflPLnJmGq+V6MqsQZKbYRQwhAWeDXsHyZ5D3MXo9ck0lIuJEt6hGpa92QHhj0qTLw1mIYS4QBfd5CcdEvYERW6KR+CwyzlCurytRxRVJn/VqM4/iBeGnfAYyzj8Uio6ho=
+  on:
+    node: 6.2
+    tags: true
+    branch: master
+    repo: Dwolla/eslint-config-dwolla
