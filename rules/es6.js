@@ -30,6 +30,9 @@ module.exports = {
     'new-cap': ['error', { capIsNewExceptions: ['Map'] }],
     yoda: ['error', 'always'],
     'handle-callback-err': 'error',
-    'global-require': 'off'
+    'global-require': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'import/prefer-default-export': 'off',
+    'no-mixed-operators': ['error', { allowSamePrecedence: true }]
   }
 };
