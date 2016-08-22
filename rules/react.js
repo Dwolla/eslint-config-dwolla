@@ -22,7 +22,6 @@ module.exports = {
     'react/display-name': 'error',
     'react/prefer-stateless-function': 'error',
     'react/jsx-boolean-value': ['error', 'always'],
-    'react/prop-types': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
     'import/prefer-default-export': 'error',
     'react/jsx-no-target-blank': 'off'  // disabled because of the need to track referrers across internal properties
